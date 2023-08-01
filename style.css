@@ -9,7 +9,7 @@
 }
 body{
 height: 100vh;
-background:linear-gradient(45deg, #7CB9E8,#6CB4EE);
+background:linear-gradient(45deg, #5fa6db,#64ace3);
 display:flex;
 justify-content:center;
 align-items: center;
@@ -42,13 +42,13 @@ color: white;
         color: var(--primary-color);
     }
     .card__social a{
-        color: white;
+        color: rgb(250, 247, 247);
         margin: 25px 20px;
-        font-size: 20px;
-        border-radius: 4px;
+        font-size: 22px;
+        border-radius: 10px;
     }
     .card__social a:hover{
-        background: #f2726a;
+        background: #580d98;
     }
     .card button{
         width: 100px;
@@ -56,9 +56,9 @@ color: white;
         border: 1px solid var(--primary-color);
         background: transparent;
         color: white;
-        border-radius: 10px;
+        border-radius: 20px;
         transition: 0.5s;
     }
     .card button:hover{
-        background: #f2726a;
+        background: #4fa30b;
     } 
