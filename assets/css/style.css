@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root {
+	--pink-color:  #0093E9;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	height: 100vh;
+	background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+	width: 400px;
+	height: 500px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #242628;
+	overflow: hidden;
+	margin: 0 30px;
+}
+h5{
+    color: aliceblue;
+}
+.card__img {
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	transition: 0.25s;
+	margin: 0 auto;
+	transform: translateY(25px);
+	border-radius: 50%;
+	border: 2px solid var(--pink-color);
+	cursor: pointer;
+}
+
+.card__img:hover {
+	width: 100%;
+	height: 100%;
+	border-radius: unset;
+	border: unset;
+	transform: unset;
+}
+.card__img:hover img{
+    border-radius: 0;
+}
+img {
+    border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+h2 {
+	color: white;
+	margin-top: 40px;
+}
+
+p {
+	color: var(--pink-color);
+}
+
+.card__social a {
+	text-decoration: none;
+	color: white;
+	margin: 25px 20px 40px;
+	display: inline-block;
+	font-size: 18px;
+	transition: 0.25s;
+}
+
+.card__social a:hover {
+	color: var(--pink-color);
+}
+
+button {
+    width: 50%;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid var(--pink-color);
+	padding: 10px 20px;
+	border-radius: inherit;
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+button:hover {
+	background-color: var(--pink-color);
+}
+.proj1__img{
+    display: flex;
+}
+.login-pic{
+    width: 100%;
+    height: 240px;
+    border-radius: 0;
+    transition: 0.25s;
+}
+.login-pic:hover{
+    width: 100%;
+	height: 500px;
+	border-radius: unset;
+	border: unset;
+	transform: unset;
+
+}
+.project1__img {
+    position: relative;
+    display: inline-block;
+}
+
+.todo-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.project1__img:hover .todo-pic {
+    display: block;
+}
+
+.todo-pic{
+    width: 100%;
+    height: 150px;
+    border-radius: 0;
+    transition: 0.25s;
+}
+.todo-pic:hover .login-pic{
+    display: none !important;
+}
+.todo-pic:hover{
+    width: 100%;
+	height: 500px !important;
+	border-radius: unset;
+	border: unset;
+	transform: unset;
+}
+.des1{
+    color: aliceblue;
+}
+.gitlab-pic{
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+    transition: 0.25s;
+}
+.gitlab-pic:hover{
+    width: 120%;
+	overflow: hidden;
+	height: 500px !important;
+	border-radius: unset;
+	border: unset;
+	transform: unset;
+	transform: translateX(-80px);
+}
+.btn-prj1{
+    border-radius: 20px;
+    font-size: 12px;
+    width: 55%;
+}
+h3{
+    color: rgb(45, 154, 250);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-prj2{
+    border-radius: 20px;
+    font-size: 12px;
+    width: 55%;
+}
+b{
+	color: #77cdff;
+	font-weight: 300;
+}
